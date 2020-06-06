@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 
+}
+body {
+	font: 14px/1.4 'Trebuchet MS';
+}
+hr { border: 0.5px solid #CCCCCC; }
+
+#search {
+	margin: 15px 0 5px 10%;	
+}
+#search input[type = "text"] {
+	box-shadow: 0 0.3px 0 #09f;
+	border-radius: 4px;
+	height: 22px;
+	width: 15%;
+	border: 1px solid #09f;
+
+}
+#search select[name = "kateg"] {
+	box-shadow: 0 0.3px 0px #09f;
+	border-radius: 4px;
+	height: 22px;
+	width: 10%;
+	border: 1px solid #09f;
+}
+#search input[type = "submit"] {
+	background: #09f;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #09f;
+	color: #fff;
+	font: 14px bold;
+	cursor: pointer;
+}
+.input tr td {
+	margin-top: 10px;
+}
+.input {
+	padding: 20px;
+	border: 1px solid #D5D5FF;
+	margin: 5px;
+	border-radius: 5px;
+}
+.input input[type="text"] {
+	padding: 5px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	width: 220px;
+}
+.input input[type="date"] {
+	padding: 5px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	width: 220px;
+}
+.input input[type="password"] {
+	padding: 5px;
+	height: 20px;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	width: 220px;
+}
+.input select {
+	padding: 5px;
+	height: 35px;
+	border-radius: 4px;
+	border: 1px solid #CCCCCC;
+	width: 235px;
+}
+.input input[type="text"]:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  	padding: 5px;
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+.input input[disabled] {
+	cursor: not-allowed;
+}
+
+.input input[type = "submit"] {
+	background: #09f;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #09f;
+	color: #fff;
+	font: 14px bold;
+	cursor: pointer;
+	font-family: 'Trebuchet MS';
+}
+.input input[type = "reset"] {
+	background: #DB4242;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+	color: #fff;
+	font: 14px bold;
+	font-family: 'Trebuchet MS';
+	cursor: pointer;
+}

@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #00CED1;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.math-box{
+    width: 420px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.math-box p{
+    margin: 0 ;
+    padding: 0;
+    font-weight: bold;
+}
+.math-box span{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.math-box input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.math-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #DC143C;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.math-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #DC143C;
+    color: #000;
+}
+
+.math-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.math-box a:hover
+{
+    color: #008B8B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
